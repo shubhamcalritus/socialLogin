@@ -19,14 +19,5 @@
         sha1="5e5a2dc9b3cb8b2331bff2c64a143f8acfdbb9db">
         <dex dex="/home/claritus/Desktop/github/socialLogin/app/build/intermediates/pre-dexed/debug/classes_82ef20f803630152bf398ac3f242ca63ffeff261.jar" />
     </item>
-    <item
-        is-multidex="false"
-        jar="/home/claritus/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cce0823396aa693798f8882e64213b1772032b09">
-        <dex dex="/home/claritus/Desktop/github/socialLogin/app/build/intermediates/pre-dexed/debug/guava-18.0_6ea9ee957f9aaba86868b7a8ab78b211747a7b60.jar" />
-    </item>
 
 </items>
