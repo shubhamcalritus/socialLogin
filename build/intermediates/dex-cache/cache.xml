@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/claritus/.android/build-cache/b9981b21278fee84efec1d0dfa8cba547757eebc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
+        <dex dex="/home/claritus/Desktop/Splash/app/build/intermediates/pre-dexed/debug/classes_408d206eca4f499a41de4bd5594e00b092da3cef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/claritus/.android/build-cache/fc3ed9cefd79be6079f38e35940da1067caf72f6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="688809418e4c2b5014a028c02708d6aeaba466ff">
+        <dex dex="/home/claritus/Desktop/Splash/app/build/intermediates/pre-dexed/debug/classes_e27758404b76271b4721bb737efa3eff96598c0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/claritus/.android/build-cache/2bba241cb9ab9b67f9c54fc65f008015f40d18cc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
+        <dex dex="/home/claritus/Desktop/Splash/app/build/intermediates/pre-dexed/debug/classes_0eb88e3b5cca4563fd7e95911fba7ded91f2b5d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/claritus/Desktop/Splash/sociallogin/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="99de28178fb7b7fcd93eb2100c3d99cf9a0e9c43">
+        <dex dex="/home/claritus/Desktop/Splash/app/build/intermediates/pre-dexed/debug/classes_eb2406a0d5d7a193c29d24e1aed8c5b98c12d6fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/claritus/.android/build-cache/a01337ec12575910136e1cd89cdb3553dff1dad6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
+        <dex dex="/home/claritus/Desktop/Splash/app/build/intermediates/pre-dexed/debug/classes_1201c87c99d2875d34a2cfb955667649dfbfcae9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/claritus/.android/build-cache/71fe65a7dcfd88740a674b989dd976ff6ea43470/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa6a6e385297077a344e0bb95ab6c22f22119261">
+        <dex dex="/home/claritus/Desktop/Splash/app/build/intermediates/pre-dexed/debug/classes_7fe03df4549cc36115b1d18b6b3cc632e39c0469.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/claritus/Desktop/Splash/splashlib/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5e5a2dc9b3cb8b2331bff2c64a143f8acfdbb9db">
+        <dex dex="/home/claritus/Desktop/Splash/app/build/intermediates/pre-dexed/debug/classes_ddb23272da4220acb2893fd5a4af35606b4cab12.jar" />
+    </item>
+
+</items>
