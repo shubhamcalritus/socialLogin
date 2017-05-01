@@ -1,6 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
-apply plugin: 'com.jfrog.bintray'
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
@@ -11,6 +10,12 @@ android {
         versionCode 1
         versionName "1.0"
 
+
+    }
+
+    lintOptions {
+        abortOnError false
+        checkReleaseBuilds false
 
     }
     buildTypes {
@@ -28,57 +33,13 @@ dependencies {
 
 
 }
-task sourcesJar(type: Jar) {
-    from android.sourceSets.main.java.srcDirs
-    classifier = 'sources'
+
+ext {
+    PUBLISH_GROUP_ID = 'shubham.jain.space.sociallogi'
+    PUBLISH_ARTIFACT_ID = 'socialLogin'
+    PUBLISH_VERSION = '1.0.0'
 }
 
-task javadoc(type: Javadoc) {
-    source = android.sourceSets.main.java.srcDirs
-    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
-}
 
-task javadocJar(type: Jar, dependsOn: javadoc) {
-    classifier = 'javadoc'
-    from javadoc.destinationDir
-}
-
-artifacts {
-    archives javadocJar
-    archives sourcesJar
-}
-group = 'shubham.jain.space.socialLogin'
-version = '0.1.1'
-install {
-    repositories.mavenInstaller {
-        pom.project {
-            name 'SocialLogin'
-            description 'Social Login library'
-            url 'https://github.com/shubhamcalritus/socialLogin'
-            inceptionYear '2017'
-
-            packaging 'aar'
-            groupId 'shubham.jain.space.socialLogin'
-            artifactId 'socialLogin'
-            version '0.1.0'
-
-            licenses {
-                license {
-                    name 'The MIT License (MIT)'
-                    url 'https://opensource.org/licenses/MIT'
-                }
-            }
-            scm {
-                connection 'https://github.com/shubhamcalritus/socialLogin.git'
-                url 'https://github.com/shubhamcalritus/socialLogin'
-
-            }
-            developers {
-                developer {
-                    id = 'shubham.claritus'
-                    name 'shubham jain'
-                }
-            }
-        }
-    }
-}
+// or use the remote copy to keep update with latest changes
+apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
