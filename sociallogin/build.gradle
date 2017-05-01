@@ -49,3 +49,36 @@ artifacts {
 }
 group = 'shubham.jain.space.socialLogin'
 version = '0.1.1'
+install {
+    repositories.mavenInstaller {
+        pom.project {
+            name 'SocialLogin'
+            description 'Social Login library'
+            url 'https://github.com/shubhamcalritus/socialLogin'
+            inceptionYear '2017'
+
+            packaging 'aar'
+            groupId 'shubham.jain.space.socialLogin'
+            artifactId 'socialLogin'
+            version '0.1.0'
+
+            licenses {
+                license {
+                    name 'The MIT License (MIT)'
+                    url 'https://opensource.org/licenses/MIT'
+                }
+            }
+            scm {
+                connection 'https://github.com/shubhamcalritus/socialLogin.git'
+                url 'https://github.com/shubhamcalritus/socialLogin'
+
+            }
+            developers {
+                developer {
+                    id = 'shubham.claritus'
+                    name 'shubham jain'
+                }
+            }
+        }
+    }
+}
