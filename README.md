@@ -67,6 +67,11 @@ overwrite the activities onActivityResult method into your activity
             
 **Step 7**
 
-on button click call the method 
+To perform sign in on button click call the method 
 
         facebookLoginHelper.performSignIn(this);
+        
+**Step 8**
+To perform sign Out on button click call method 
+
+        facebookLoginHelper.performSignOut();
